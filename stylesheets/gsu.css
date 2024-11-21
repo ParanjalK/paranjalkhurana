@@ -1,0 +1,72 @@
+@font-face { 
+    font-family: 'Krasnodar';
+    src: url('fonts/Krasnodar.otf') format('otf');
+    }
+
+@font-face { 
+    font-family: 'Mantranaga 36Daysoftype 2023';
+    src: url('fonts/Mantranaga.otf') format('otf');
+    }
+
+ html {
+     cursor: url('../images/cursor.ico'), default;
+}
+
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+}
+
+img {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ------------------------------------------------------------ */
+
+.top-nav {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 0.3vw;
+}
+
+.top-nav-1 {
+    font-family: "Inter";
+    text-decoration: none;
+    color: black;
+    margin-right: 68.3%;
+    padding-left: 1%;
+}
+
+.top-nav-2 {
+    font-family: "Inter";
+    text-decoration: none;
+    color: black;
+    margin-right: 7%;
+}
+
+.top-nav-3 {
+    font-family: "Inter";
+    text-decoration: none;
+    color: black;
+    margin-right: 7%;
+}
+
+.top-nav-4 {
+    font-family: "Inter";
+    text-decoration: none;
+    color: black;
+}
+
+#yellow {
+    /* make hero img bg yellow
+
+        background-color: #ffdd00;
+    
+    */
+    padding-top: 1%;
+}
